@@ -50,7 +50,7 @@ Tailer the timeline to be more specific for your project
 - Week 4:
 - Week 5:
 
-## Contributers
+## Contributers [To be Updated]
 
 - Issam Laradji 
     - A Facilitator and a Coder who will be working on defining relevant templates and related script examples
