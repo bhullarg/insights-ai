@@ -59,7 +59,7 @@ python main.py -e basic
 
 This defines how the control flow works for the project, and this is expected to be refined as the prooject goes on.
 
-![pipeline](docs/pipeline.png)
+![pipeline](pipeline.png)
 
 ## Table of Results [To Be Updated]
 
