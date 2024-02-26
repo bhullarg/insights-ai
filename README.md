@@ -1,25 +1,25 @@
-## Project Template
+## Team X Template
 
 ## 1. Project Description  [To be Updated]
 
-### QuizLLMs: A Model for generating flash cards from text
+### QuizLLMs: A Model for generating flash cards from text [To be Updated]
 
 Develop an app that utilizes LLMs to parse a long text of a specific topic and generate interactive flashcards for effective learning for people.
 
-#### Control Flow
+#### Control Flow [To be Updated]
 Here we specify the control flow from end-to-end
 
-**Expected Input:** The user provides a path to a text file containing information about a certain topic
-**Expected Pipeline:** A model will parse that text and outputs   
-**Output:** The ooutput is a question to the user that represents facts about the provided text and a set of 4 answers to chooose from.
+- **Expected Input:** The user provides a path to a text file containing information about a certain topic
+- **Expected Pipeline:** A model will parse that text and outputs   
+- **Output:** The ooutput is a question to the user that represents facts about the provided text and a set of 4 answers to chooose from.
 
 
-#### Experimental Setup 
+#### Experimental Setup [To be Updated]
 Here we specify what we need to have our project code running.
 
-**Dataset:** The wikipedia dataset (https://paperswithcode.com/dataset/wiki-en)
-**Models to be used**: GPT-4/GPT-3.5, Llama, or Mistral
-**Evaluation Metric:** Human Evaluation, or G-Eval (https://arxiv.org/abs/2303.16634)
+- **Dataset:** The wikipedia dataset (https://paperswithcode.com/dataset/wiki-en)
+- **Models to be used**: GPT-4/GPT-3.5, Llama, or Mistral
+- **Evaluation Metric:** Human Evaluation, or G-Eval (https://arxiv.org/abs/2303.16634)
 
 
 ### Related Work [To be Updated]
@@ -63,7 +63,7 @@ This defines how the control flow works for the project, and this is expected to
 
 ## Table of Results [To Be Updated]
 
-### Quantitive Results
+### Quantitive Results [To be Updated]
 
 Here we compare different methods based on the G-Eval metric scores.
 
@@ -74,24 +74,23 @@ Here we compare different methods based on the G-Eval metric scores.
 | Method 3 |    12     |    18     |
 
 
-### Qualitative Results
+### Qualitative Results [To be Updated]
 
 Here we compare different methods based on where they get things right, and wronge
 
-|            | Good Cases                    |           Failure Cases               |
-|------------------------------------------|--------------------------------------|
-| Method 1  | "Who is santa clause? Nicolas" | "Who is santa clause? Michael Jackson" |
-| Method 2  |              x                  |                  x                       |
-| Method 3  |              x                  |                  x                       |
+|          |  Good Cases  | Failure Cases   |
+|----------|-----------|-----------|
+| Method 1 |    Who is santa clause? Saint Nicholas      |    Who is santa clause? Michael Jackson     |
+| Method 2 |    x     |    x     |
+| Method 3 |    x     |    x     |
 
 
 
 ## Next TODO Items [To be Updated]
 
 **Week 2**
-- [] Replace the current summarization method with one that uses GPT-3.5
-- [] Create a script to visualize the results for multiple experiments
-
+- [ ] Replace the current summarization method with one that uses GPT-3.5 (Issam Laradji)
+- [ ] Create a script to visualize the results for multiple experiments (Issam Laradji)
 
 ## Contributers [To be Updated]
 | Name            | Role                                   | What to work on?                                                |
