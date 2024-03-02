@@ -1,17 +1,16 @@
-## Team X Template
+## Team 3: Insights.ai
 
-## 1. Project Description  [To be Updated]
+## 1. Project Description
 
-### QuizLLMs: A Model for generating flash cards from text [To be Updated]
+### Insights.AI app: a demo app to generate deep business intelligence insights from publicly available info 
 
-Develop an app that utilizes LLMs to parse a long text of a specific topic and generate interactive flashcards for effective learning for people.
+Develop an app for small businesses that utilizes LLMs to parse job postings from other companies to generate tables and charts about potential competitors and competitive positioning info.
 
-#### Control Flow [To be Updated]
-Here we specify the control flow from end-to-end
+#### Control Flow
 
-- **Expected Input:** The user provides a path to a text file containing information about a certain topic
-- **Expected Pipeline:** A model will parse that text and outputs   
-- **Output:** The ooutput is a question to the user that represents facts about the provided text and a set of 4 answers to chooose from.
+- **Expected Input:** The user provides a text file about their company (products, services, org info) and a link or list of links to companies. 
+- **Expected Pipeline:** A model will parse the text. A query is sent to GPT3.5 LLM. Then generate outputs
+- **Output:** The output is a table and chart with insights about potential areas to dig into
 
 
 #### Experimental Setup [To be Updated]
@@ -24,12 +23,10 @@ Here we specify what we need to have our project code running.
 
 ### Related Work [To be Updated]
 
-Here we keep track of any relevant works to this project
-
 - Chain of Thought prompting (https://arxiv.org/abs/2201.11903)
 - Text summarization with pretrained encoders (https://arxiv.org/pdf/1908.08345.pdf)
 
-## 2 Quick start [To be Ran]
+## 2 Quick start [To be Run]
 
 ### Pre-requisites
 
@@ -57,7 +54,6 @@ python main.py -e basic
 
 ## Figure Pipeline [To Be Updated]
 
-This defines how the control flow works for the project, and this is expected to be refined as the prooject goes on.
 
 ![pipeline](pipeline.png)
 
@@ -86,14 +82,20 @@ Here we compare different methods based on where they get things right, and wron
 
 
 
-## Next TODO Items [To be Updated]
+## Next TODO Items 
 
-**Week 2**
-- [ ] Replace the current summarization method with one that uses GPT-3.5 (Issam Laradji)
-- [ ] Create a script to visualize the results for multiple experiments (Issam Laradji)
+**Task List**
+- Please refer to https://docs.google.com/spreadsheets/d/13_ml3JDSE_b-86nSrkGnwPIKQjcrvHbaXODFqQLDIMg/edit#gid=0
 
-## Contributers [To be Updated]
+
+## Contributors [To be Updated]
 | Name            | Role                                   | What to work on?                                                |
 |-----------------|----------------------------------------|------------------------------------------------------------------|
-| Issam Laradji  | A Facilitator and a Coder               | working on defining relevant templates and related script examples|
+| Sarah           | Facilitator                            | research competitors, define business problem, facilitate        |
+| Ameer           | Data Analyst                           |                                                                  |
+| Guri            | Coder (FE)                             |                                                                  |
+| Dani            | Data Analyst                           |                                                                  |
+| Anna            | Coder (ML Engineer)                    |                                                                  |
+
+
 
