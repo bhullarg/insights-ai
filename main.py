@@ -7,7 +7,7 @@ os.environ["OPENAI_API_KEY"] = ""
 def main():
     messages = [{ "content": "Hello, how are you?","role": "user"}]
     response = completion(model="gpt-3.5-turbo", messages=messages)
-    print(response)
+    print(response.choices[0].message.content)
 
     # query = {
     #     'question': 'What are my competitors doing that I should pay attention to?',
