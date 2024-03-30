@@ -1,3 +1,6 @@
+# data
+df.csv
+
 # Byte-compiled / optimized / DLL files
 .vscode
 __pycache__/
@@ -159,3 +162,7 @@ cython_debug/
 #  and can be added to the global gitignore or merged into this file.  For a more nuclear
 #  option (not recommended) you can uncomment the following to ignore the entire idea folder.
 #.idea/
+
+# macOS system files that store custom attributes of its containing folder
+.DS_Store
+
